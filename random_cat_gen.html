@@ -6,33 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Girish Dodda Portfilo</title>
+    <title>Generate a random quote</title>
 </head>
 
-<body>
+
+
+<body onload="genCat()">
     <ul class="navbar">
-        <li class="navbar_item"><a href="#">Home</a></li>
+        <li class="navbar_item"><a href="index.html">Home</a></li>
         <li class="navbar_item"><a href="random_cat_gen.html">Generate a random cat</a></li>
         <!-- <li class="navbar_item"><a href="#contact">Contact</a></li> -->
         <li style="float:right" class="navbar_item"><a class="active" href="about_me.html">About</a></li>
     </ul>
 
-    <h1>Girish Dodda</h1>
-    <img src="https://i2.wp.com/bdtechtalks.com/wp-content/uploads/2020/06/artificial-intelligence.jpg?fit=3823%2C2500&ssl=1"
-        alt="Coding Pic" class="icon">
-
-    <p>I want to make coding easier for everyone</p>
-
-    <h4 style="color: #dddddd;">My Hobbies</h4>
-    <ul style="color: #dddddd;">
-        <li style="color: #dddddd;">Biking</li>
-        <li style="color: #dddddd;">Programming</li>
-        <li style="color: #dddddd;">Robotics</li>
-    </ul>
-
+    <div style="display: flex;justify-content: center;align-items: center;">
+        <button onclick="genCat()" id="random_cat_btn" class="button">Click this to generate random cat</button>
+    </div>
+    <img id="cat"></img>
 
 </body>
-
 <script src="script.js"></script>
 
 </html>
