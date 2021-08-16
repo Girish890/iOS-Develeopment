@@ -70,3 +70,17 @@ img {
     margin-right: auto;
     width: 50%;
 }
+
+body {
+    /* background-image: url('images/programming.gif'); */
+    /* background-repeat: repeat; */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, #555, #333 50%, #111 100%);
+}
+
+html {
+    height: 100%;
+}
