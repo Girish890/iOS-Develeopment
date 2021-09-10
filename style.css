@@ -65,7 +65,8 @@ li a:hover {
     background-color: #111;
 }
 
-img {
+img,
+video {
     display: block;
     margin-left: auto;
     margin-right: auto;
